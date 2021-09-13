@@ -1,0 +1,33 @@
+.recipes-meats h1 {
+  padding-left: 24px;
+}
+.recipes-meats__card-meats{
+  margin: 0 auto;
+  width: 90%;
+  background-color: $whiteBone;
+  border-radius: 5px;
+  margin-bottom: 36px;
+
+  img {
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 28px;
+  }
+
+  h3 {
+    padding-left: 12px;
+    margin-bottom: 34px;
+  }
+  p {
+    padding: 0 12px 10px 12px;
+  }
+
+  a {
+    float: right;
+    color: $darkestBrown;
+    font-weight: bold;
+    font-family: $links;
+    margin-top: 15px;
+    padding-bottom: 14px;
+    padding-right: 18px;
+  }
+}

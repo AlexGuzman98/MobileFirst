@@ -1,0 +1,63 @@
+.recipes-desserts h1 {
+  padding-left: 24px;
+}
+.recipes-desserts__card-dessert {
+  margin: 0 auto;
+  width: 90%;
+  background-color: $whiteBone;
+  border-radius: 5px;
+  margin-bottom: 36px;
+
+  img {
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 28px;
+  }
+
+  h3 {
+    padding-left: 12px;
+    margin-bottom: 34px;
+  }
+
+  a {
+    float: right;
+    color: $darkestBrown;
+    font-weight: bold;
+    font-family: $links;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    padding-right: 18px;
+  }
+}
+
+.difficulty {
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+
+  img {
+    float: left;
+    margin: 0;
+    margin-right: 6px;
+  }
+
+  p {
+    float: left;
+    margin: 0;
+  }
+}
+.time-duration {
+  width: 50%;
+  float: right;
+  padding-left: 120px;
+
+  img {
+    float: left;
+    margin: 0;
+    margin-left: 6px;
+  }
+
+  p {
+    float: left;
+    margin: 0;
+  }
+}
