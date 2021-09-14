@@ -438,6 +438,7 @@ p {
     line-height: 2rem; }
 
 .principal__card {
+  margin: 0 auto;
   margin-bottom: 20px;
   background-color: #F4F4F4;
   padding: 5%;
