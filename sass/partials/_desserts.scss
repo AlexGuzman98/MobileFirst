@@ -22,43 +22,11 @@
   a {
     float: right;
     color: $darkestBrown;
-    font-weight: bold;
-    font-family: $links;
+    font-weight: bolder;
+    font-family: $montserrat;
     margin-top: 15px;
-    margin-bottom: 14px;
+    padding-bottom: 14px;
     padding-right: 18px;
   }
 }
 
-.difficulty {
-  width: 50%;
-  float: left;
-  padding-left: 20px;
-
-  img {
-    float: left;
-    margin: 0;
-    margin-right: 6px;
-  }
-
-  p {
-    float: left;
-    margin: 0;
-  }
-}
-.time-duration {
-  width: 50%;
-  float: right;
-  padding-left: 120px;
-
-  img {
-    float: left;
-    margin: 0;
-    margin-left: 6px;
-  }
-
-  p {
-    float: left;
-    margin: 0;
-  }
-}
