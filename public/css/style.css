@@ -346,7 +346,8 @@ p {
 
 .header {
   background-color: #2F1305;
-  height: auto; }
+  height: auto;
+  position: fixed; }
 
 .logo {
   width: 20%; }
