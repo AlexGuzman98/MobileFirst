@@ -419,10 +419,12 @@ p {
   margin-bottom: 38px; }
 
 .copyright {
-  float: left; }
+  float: left;
+  margin-left: 20px; }
 
 .social-media {
-  float: right; }
+  float: right;
+  margin-right: 20px; }
 
 .about-us-description {
   margin-bottom: 30px; }
