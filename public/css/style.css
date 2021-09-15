@@ -427,9 +427,11 @@ p {
 .about-us-description {
   margin-bottom: 30px; }
   .about-us-description h1 {
-    margin-bottom: 35px; }
+    margin-bottom: 35px;
+    padding: 0 20px 0 20px; }
   .about-us-description p {
-    line-height: 2rem; }
+    line-height: 2rem;
+    padding: 0 20px 0 20px; }
 
 .principal__card {
   margin: 0 auto;
@@ -445,29 +447,31 @@ p {
   .principal__card .personal-social-media {
     float: right; }
 
-.recipes-breakfasts h1 {
+.recipes-title h1 {
   padding-left: 24px; }
 
-.recipes-breakfasts__card-breakfast {
+.recipes__cards {
   margin: 0 auto;
   width: 90%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #F4F4F4;
   border-radius: 5px;
   margin-bottom: 36px; }
-  .recipes-breakfasts__card-breakfast img {
+  .recipes__cards img {
     border-radius: 5px 5px 0 0;
     margin-bottom: 28px; }
-  .recipes-breakfasts__card-breakfast h3 {
+  .recipes__cards h3 {
     padding-left: 12px;
     margin-bottom: 34px; }
-  .recipes-breakfasts__card-breakfast a {
+  .recipes__cards p {
+    padding: 0 12px 10px 12px; }
+  .recipes__cards a {
     float: right;
     color: #271004;
     font-weight: bolder;
     font-family: "Montserrat", sans-serif;
     margin-top: 15px;
-    margin-bottom: 14px;
+    padding-bottom: 14px;
     padding-right: 18px; }
 
 .difficulty {
@@ -477,7 +481,6 @@ p {
   .difficulty img {
     float: left;
     margin: 0;
-    margin-right: 6px;
     margin-top: -4px; }
   .difficulty p {
     float: left;
@@ -486,94 +489,14 @@ p {
 .time-duration {
   width: 50%;
   float: right;
-  padding-left: 70px; }
+  padding-left: 50px; }
   .time-duration img {
     float: left;
     margin: 0;
-    margin-top: -8px;
-    margin-left: 10px; }
+    margin-top: -8px; }
   .time-duration p {
     float: left;
     margin: 0; }
-
-.recipes-beverage h1 {
-  padding-left: 24px; }
-
-.recipes-beverage__card-beverage {
-  margin: 0 auto;
-  width: 90%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #F4F4F4;
-  border-radius: 5px;
-  margin-bottom: 36px; }
-  .recipes-beverage__card-beverage img {
-    border-radius: 5px 5px 0 0;
-    margin-bottom: 28px; }
-  .recipes-beverage__card-beverage h3 {
-    padding-left: 12px;
-    margin-bottom: 34px; }
-  .recipes-beverage__card-beverage p {
-    padding: 0 12px 10px 12px; }
-  .recipes-beverage__card-beverage a {
-    float: right;
-    color: #271004;
-    font-weight: bolder;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 15px;
-    padding-bottom: 14px;
-    padding-right: 18px; }
-
-.recipes-desserts h1 {
-  padding-left: 24px; }
-
-.recipes-desserts__card-dessert {
-  margin: 0 auto;
-  width: 90%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #F4F4F4;
-  border-radius: 5px;
-  margin-bottom: 36px; }
-  .recipes-desserts__card-dessert img {
-    border-radius: 5px 5px 0 0;
-    margin-bottom: 28px; }
-  .recipes-desserts__card-dessert h3 {
-    padding-left: 12px;
-    margin-bottom: 34px; }
-  .recipes-desserts__card-dessert a {
-    float: right;
-    color: #271004;
-    font-weight: bolder;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 15px;
-    padding-bottom: 14px;
-    padding-right: 18px; }
-
-.recipes-meats h1 {
-  padding-left: 24px; }
-
-.recipes-meats__card-meats {
-  margin: 0 auto;
-  width: 90%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #F4F4F4;
-  border-radius: 5px;
-  margin-bottom: 36px; }
-  .recipes-meats__card-meats img {
-    border-radius: 5px 5px 0 0;
-    margin-bottom: 28px; }
-  .recipes-meats__card-meats h3 {
-    padding-left: 12px;
-    margin-bottom: 34px; }
-  .recipes-meats__card-meats p {
-    padding: 0 12px 10px 12px; }
-  .recipes-meats__card-meats a {
-    float: right;
-    color: #271004;
-    font-weight: bolder;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 15px;
-    padding-bottom: 14px;
-    padding-right: 18px; }
 
 .recipe-description-1 h1 {
   padding-left: 4%;
