@@ -30,12 +30,7 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-<<<<<<< HEAD
-  font-size: 2em;
-  margin: 0.67em 0; }
-=======
   font-size: 2em; }
->>>>>>> a9c829a2f4e24155b9574c46ed7e9ffb2ef69bcd
 
 /* Grouping content
    ========================================================================== */
@@ -306,8 +301,6 @@ template {
  */
 [hidden] {
   display: none; }
-<<<<<<< HEAD
-=======
 
 * {
   margin: 0;
@@ -397,6 +390,58 @@ p {
     font-family: "Montserrat", sans-serif;
     font-size: 28px;
     font-weight: 500; }
+
+.main-container {
+  width: 100%;
+  margin: 0 auto; }
+
+.item-content {
+  background: #683309;
+  opacity: 0;
+  color: #F4F4F4;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif; }
+
+.active + .item-content {
+  padding: 8px;
+  opacity: 1; }
+
+.btn-item {
+  background: #2F1305;
+  display: block;
+  color: #F4F4F4;
+  padding: 8px;
+  font-weight: bold;
+  margin: 0px;
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif; }
+
+.btn-item .active {
+  background: #2F1305;
+  margin: 0px; }
+
+.btn-item:after {
+  content: "\002b";
+  float: right;
+  padding-right: 20px; }
+
+.btn-item.active:after {
+  content: "\02212"; }
+
+.list-categories {
+  padding: 0px;
+  list-style: none; }
+
+.list-categories a {
+  text-decoration: none;
+  color: #F4F4F4;
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif; }
+
+.list-categories li {
+  width: 100%;
+  border-bottom: 1px solid #F4F4F4;
+  margin-bottom: 20px; }
 
 .ads-1 {
   padding-top: 100px;
@@ -553,4 +598,3 @@ p {
   margin-bottom: 80px; }
   .recipe-instructions-1 h3 {
     margin-bottom: 20px; }
->>>>>>> a9c829a2f4e24155b9574c46ed7e9ffb2ef69bcd
