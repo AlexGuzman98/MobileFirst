@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html {
+  font-size: 16px;
+}
+
+.clearfix::after {
+  content: "" ;
+  clear: both ;
+  display: table ;
+}
+
+#wrapper {
+  width: 100%;
+  height: auto;
+  background-color: $backgroundCream;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+h1,h2,h3 {
+  color: $darkestBrown;
+  font-family: $openSans;
+  font-weight: bold;
+}
+h1 {
+  font-size: $header1;
+}
+h2 {
+  font-size: $header2;
+}
+h3 {
+  font-size: $header3;
+}
+
+p{
+  color: $darkestBrown;
+  font-family: $montserrat;
+  font-size: $paragraphs;
+}
+
+
+
