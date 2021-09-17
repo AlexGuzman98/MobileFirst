@@ -1,21 +1,19 @@
 // Config
-@import 'config/mixin';
 @import 'config/settings';
 
 // Normalize
 @import 'library/normalize';
 
+// Components
+@import 'components/header';
+@import 'components/accordeon';
+@import 'components/cards';
+@import 'components/slide';
+@import 'components/footer';
+
 // Partials
 @import 'partials/globals';
-@import 'partials/header';
-@import 'partials/accordeon';
 @import 'partials/index';
-@import 'partials/footer';
 @import 'partials/about-us';
-@import 'partials/cards';
 @import 'partials/pancakes';
-@import 'partials/slide';
 
-
-// Breakpoint
-@import 'breakpoint/all';
