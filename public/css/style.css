@@ -350,7 +350,8 @@ p {
   position: fixed; }
 
 .logo {
-  width: 20%; }
+  width: 15%;
+  padding: 5px 0 5px 5px; }
 
 #sidebar {
   position: fixed;
@@ -484,7 +485,7 @@ p {
   margin-right: 20px; }
 
 .banner-about-us {
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 30px; }
 
 .about-us-description {
@@ -563,7 +564,8 @@ p {
 
 .recipe-description-1 h1 {
   padding-left: 4%;
-  margin-bottom: 36px; }
+  margin-bottom: 36px;
+  padding-top: 100px; }
 
 .recipe-description-1 p > a {
   color: #271004; }
@@ -609,6 +611,10 @@ p {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     color: #271004; }
+
+.related-posts {
+  margin-left: 6%;
+  margin-bottom: 36px; }
 
 .recepes {
   display: flex;
